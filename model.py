@@ -22,7 +22,6 @@ def predict_query(query):
     
     predictions = model.predict(query_array)
     
-<<<<<<< HEAD
     indice_maximo = int(round(predictions[0][0]))
 =======
     
