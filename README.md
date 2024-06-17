@@ -44,3 +44,7 @@ scikit-learn==1.5.0
 - Asegúrate de tener una configuración de Python adecuada y un entorno virtual activado si es necesario.
 - El modelo y el vectorizador deben estar entrenados y guardados antes de ejecutar la aplicación.
 - Personaliza la aplicación según tus necesidades específicas y asegúrate de revisar y ajustar las dependencias según sea necesario.
+
+### Licencia
+
+Este proyecto está licenciado bajo [LICENCIA](LICENSE).
