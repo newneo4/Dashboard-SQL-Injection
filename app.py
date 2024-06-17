@@ -17,15 +17,12 @@ class App:
         2. Observar la predicción dada por el modelo.
         """)
         
-        # Input de texto para la consulta SQL
         query = st.text_input("Introduce tu query aquí:", "SELECT * FROM usuarios")
         
         if st.button('Predecir'):
-            # Realizar predicción
             prediction = predict_query(query)
             st.write(f"Predicción: {prediction}")
 
-# Ejecutar la aplicación
 if __name__ == "__main__":
     app = App()
     app.run()
