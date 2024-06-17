@@ -33,10 +33,12 @@ streamlit run app.py
 - **modelos/vectorizer.pkl**: Archivo pickle que contiene el vectorizador utilizado para transformar las consultas.
 
 ### DEPENDENCIAS
-streamlit==1.35.0
-tensorflow==2.16.2
-numpy==1.26.4
-scikit-learn==1.5.0
+<ul>
+<li>streamlit==1.35.0</li>
+<li>tensorflow==2.16.2</li>
+<li>numpy==1.26.4</li>
+<li>scikit-learn==1.5.0</li>
+</ul>
 
 ### Notas Adicionales
 
