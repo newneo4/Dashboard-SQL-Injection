@@ -9,8 +9,8 @@ with open("modelos/vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 
 predicciones = {
-    1: "Estás a salvo, no es una SQL Injection",
-    0: "¡Cuidado! Estás en peligro",
+    0: "Estás a salvo, no es una SQL Injection",
+    1: "¡Cuidado! Estás en peligro",
 }
 
 def predict_query(query):
@@ -25,7 +25,5 @@ def predict_query(query):
     indice_maximo = int(round(predictions[0][0]))
     
     prediction_label = predicciones[indice_maximo]
-    
-    print(predicciones[int(round(predictions[0][0]))], predictions, indice_maximo)
     
     return prediction_label
