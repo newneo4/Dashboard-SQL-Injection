@@ -21,8 +21,14 @@ def predict_query(query):
     query_array = query_array.reshape(-1, 1, query_array.shape[1])
     
     predictions = model.predict(query_array)
+
+    print(predictions)
     
+<<<<<<< HEAD
     indice_maximo = int(round(predictions[0][0]))
+=======
+    indice_maximo = np.argmax(predictions)
+>>>>>>> ab5000b9daf1fb05f5c459d28fc0a9a50bea44b2
     
     prediction_label = predicciones[indice_maximo]
     
