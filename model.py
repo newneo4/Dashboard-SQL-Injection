@@ -21,6 +21,8 @@ def predict_query(query):
     query_array = query_array.reshape(-1, 1, query_array.shape[1])
     
     predictions = model.predict(query_array)
+
+    print(predictions)
     
     indice_maximo = np.argmax(predictions)
     
