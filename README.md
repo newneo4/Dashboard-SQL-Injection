@@ -16,8 +16,7 @@ La aplicación permite a los usuarios introducir consultas SQL y obtener una pre
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu_usuario/prediccion-sql-injection.git
-cd prediccion-sql-injection
+git clone https://github.com/newneo4/Dashboard-SQL-Injection.git
 
 # Instala las dependencias
 pip install -r requirements.txt
